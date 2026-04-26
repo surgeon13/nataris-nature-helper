@@ -1,0 +1,144 @@
+{
+  "key": "village_stage_01",
+  "name": "Village Stage 01",
+  "description": "Build Main Building to level 10 at square 26. Initial custom template.",
+  "tribes": ["roman", "teuton", "gaul"],
+  "next_template": "village_stage_02",
+  "stages": [
+    {
+      "name": "Stage 1 - Main Building to 10 (Square 26)",
+      "type": "main_building",
+      "target_level": 10,
+      "slot": 26,
+      "notes": "Foundation stage. Main Building 10 unlocks most mid-game buildings."
+    },
+    {
+      "name": "Stage 2 - Warehouse Level 1",
+      "type": "buildings",
+      "steps": [
+        { "building": "Warehouse", "target_level": 1, "slot": 19 }
+      ],
+      "notes": "First storage building in slot 19."
+    },
+    {
+      "name": "Stage 3 - Granary Level 1",
+      "type": "buildings",
+      "steps": [
+        { "building": "Granary", "target_level": 1, "slot": 24 }
+      ],
+      "notes": "First granary in slot 24."
+    },
+    {
+      "name": "Stage 4 - Main Building to 15 (Square 26)",
+      "type": "main_building",
+      "target_level": 15,
+      "slot": 26,
+      "notes": "Upgrade Main Building to level 15 for advanced buildings."
+    },
+    {
+      "name": "Stage 5 - Warehouse Level 3",
+      "type": "buildings",
+      "steps": [
+        { "building": "Warehouse", "target_level": 3, "slot": 19 }
+      ],
+      "notes": "Upgrade Warehouse in slot 19 to level 3."
+    },
+    {
+      "name": "Stage 6 - Granary Level 3",
+      "type": "buildings",
+      "steps": [
+        { "building": "Granary", "target_level": 3, "slot": 24 }
+      ],
+      "notes": "Upgrade Granary in slot 24 to level 3."
+    },
+    {
+      "name": "Stage 7 - Marketplace Level 1 (Square 33)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Marketplace", "target_level": 1, "slot": 33 }
+      ],
+      "notes": "Build Marketplace in slot 33 to level 1."
+    },
+    {
+      "name": "Stage 8 - Rally Point Level 1",
+      "type": "buildings",
+      "steps": [
+        { "building": "Rally Point", "target_level": 1, "slot": 39 }
+      ],
+      "notes": "Build Rally Point in slot 39 to level 1."
+    },
+    {
+      "name": "Stage 9 - Barracks Level 3 (Square 37)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Barracks", "target_level": 3, "slot": 37 }
+      ],
+      "notes": "Build Barracks in slot 37 to level 3."
+    },
+    {
+      "name": "Stage 10 - Warehouse and Granary to 5",
+      "type": "buildings",
+      "steps": [
+        { "building": "Warehouse", "target_level": 5, "slot": 19 },
+        { "building": "Granary", "target_level": 5, "slot": 24 }
+      ],
+      "notes": "Upgrade Warehouse and Granary to level 5."
+    },
+    {
+      "name": "Stage 11 - Main Building to 20 (Square 26)",
+      "type": "main_building",
+      "target_level": 20,
+      "slot": 26,
+      "notes": "Upgrade Main Building in slot 26 to level 20."
+    },
+    {
+      "name": "Stage 12 - Marketplace Level 8 (Square 33)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Marketplace", "target_level": 8, "slot": 33 }
+      ],
+      "notes": "Upgrade Marketplace in slot 33 to level 8."
+    },
+    {
+      "name": "Stage 13 - Warehouse and Granary to 8",
+      "type": "buildings",
+      "steps": [
+        { "building": "Warehouse", "target_level": 8, "slot": 19 },
+        { "building": "Granary", "target_level": 8, "slot": 24 }
+      ],
+      "notes": "Upgrade Warehouse and Granary to level 8."
+    },
+    {
+      "name": "Stage 14 - Academy Level 10 (Square 32)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Academy", "target_level": 10, "slot": 32 }
+      ],
+      "notes": "Build Academy in slot 32 to level 10."
+    },
+    {
+      "name": "Stage 15 - Town Hall Level 1 (Square 30)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Town Hall", "target_level": 1, "slot": 30 }
+      ],
+      "notes": "Build Town Hall in slot 30 to level 1."
+    },
+    {
+      "name": "Stage 16 - Blacksmith Level 3 (Square 28)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Blacksmith", "target_level": 3, "slot": 28 }
+      ],
+      "notes": "Build Blacksmith in slot 28 to level 3."
+    },
+    {
+      "name": "Stage 17 - Stable Level 3 (Square 38)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Stable", "target_level": 3, "slot": 38 }
+      ],
+      "notes": "Build Stable in slot 38 to level 3."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "key": "resource_buildings",
+  "name": "Upgrade Production",
+  "description": "Gradually build and upgrade all resource bonus buildings after resource fields reach level 10.",
+  "tribes": ["roman", "teuton", "gaul"],
+  "requires": "Resource fields level 10",
+  "stages": [
+    {
+      "type": "buildings",
+      "name": "Max all resource bonus buildings",
+      "notes": "Upgrade all bonus production buildings from current level to max (5).",
+      "steps": [
+        { "building": "Grain Mill",   "target_level": 5, "slot": 22 },
+        { "building": "Sawmill",      "target_level": 5, "slot": 23 },
+        { "building": "Brickyard",    "target_level": 5, "slot": 27 },
+        { "building": "Iron Foundry", "target_level": 5, "slot": 31 },
+        { "building": "Bakery",       "target_level": 5, "slot": 34 }
+      ]
+    }
+  ]
+}

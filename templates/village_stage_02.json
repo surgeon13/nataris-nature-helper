@@ -1,0 +1,57 @@
+{
+  "key": "village_stage_02",
+  "name": "Village Stage 02",
+  "description": "Continue village development — upgrade military, economy, and civic buildings after Stage 01.",
+  "tribes": ["roman", "teuton", "gaul"],
+  "next_template": null,
+  "stages": [
+    {
+      "name": "Stage 1 - Town Hall to 10 (Slot 30)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Town Hall", "target_level": 10, "slot": 30 }
+      ],
+      "notes": "Upgrade Town Hall to level 10 to unlock larger celebrations and prestige bonuses."
+    },
+    {
+      "name": "Stage 2 - Academy to 15 (Slot 32)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Academy", "target_level": 15, "slot": 32 }
+      ],
+      "notes": "Upgrade Academy to level 15 to unlock advanced troop researches."
+    },
+    {
+      "name": "Stage 3 - Barracks to 10 (Slot 37)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Barracks", "target_level": 10, "slot": 37 }
+      ],
+      "notes": "Upgrade Barracks to level 10 for faster infantry training."
+    },
+    {
+      "name": "Stage 4 - Stable to 10 (Slot 38)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Stable", "target_level": 10, "slot": 38 }
+      ],
+      "notes": "Upgrade Stable to level 10 for faster cavalry training."
+    },
+    {
+      "name": "Stage 5 - Rally Point to 10 (Slot 39)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Rally Point", "target_level": 10, "slot": 39 }
+      ],
+      "notes": "Upgrade Rally Point to level 10 for more simultaneous attacks/sends."
+    },
+    {
+      "name": "Stage 6 - Marketplace to 20 (Slot 33)",
+      "type": "buildings",
+      "steps": [
+        { "building": "Marketplace", "target_level": 20, "slot": 33 }
+      ],
+      "notes": "Upgrade Marketplace to level 20 for maximum trade capacity."
+    }
+  ]
+}

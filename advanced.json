@@ -1,0 +1,58 @@
+{
+  "key": "advanced",
+  "name": "Advanced Village",
+  "description": "Continues from Basic. Town Hall for Big Celebrations, Hero's Mansion for oases, Residence for settlers.",
+  "tribes": ["roman", "teuton", "gaul"],
+  "requires": "basic",
+  "next_template": null,
+  "stages": [
+    {
+      "name": "Stage 1 - Town Hall to 10",
+      "type": "buildings",
+      "notes": "Town Hall 10 unlocks Big Celebrations - massive culture point boost, allows founding new villages faster.",
+      "steps": [
+        { "building": "Town Hall", "target_level": 10, "slot": 30 }
+      ]
+    },
+    {
+      "name": "Stage 2 - Hero's Mansion",
+      "type": "buildings",
+      "notes": "Level 10 captures first oasis, level 15 second, level 20 third.",
+      "steps": [
+        { "building": "Hero's Mansion", "target_level": 10, "slot": 25 }
+      ]
+    },
+    {
+      "name": "Stage 3 - Residence for settlers",
+      "type": "buildings",
+      "notes": "Residence level 10 trains 2 settlers for founding new villages.",
+      "steps": [
+        { "building": "Residence", "target_level": 10, "slot": 22 }
+      ]
+    }
+  ],
+  "tribe_overrides": {
+    "roman": {
+      "notes": "No tribe-specific additions in advanced template for Romans.",
+      "stage_additions": []
+    },
+    "teuton": {
+      "notes": "Brewery is capital-only and requires Granary 20 + Rally Point 10. Will be handled in a dedicated capital template.",
+      "stage_additions": []
+    },
+    "gaul": {
+      "notes": "Upgrade Trapper for stronger passive defense during expansion stage.",
+      "stage_additions": [
+        {
+          "after_stage": "Stage 2 - Hero's Mansion",
+          "name": "Stage 2b - Trapper upgrade (Gaul only)",
+          "type": "buildings",
+          "notes": "Level 10 Trapper holds significantly more enemy troops passively.",
+          "steps": [
+            { "building": "Trapper", "target_level": 10, "slot": 30 }
+          ]
+        }
+      ]
+    }
+  }
+}

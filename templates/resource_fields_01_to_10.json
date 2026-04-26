@@ -1,0 +1,69 @@
+{
+  "key": "resource_fields_01_to_10",
+  "name": "Resource Fields 01 -> 10",
+  "description": "Upgrade all resource fields stepwise: all to 1, then all to 2, and so on up to 10.",
+  "tribes": ["roman", "teuton", "gaul"],
+  "next_template": "resource_buildings",
+  "stages": [
+    {
+      "name": "Resource Fields to Level 1",
+      "type": "resource_fields",
+      "resource_target": 1,
+      "notes": "Raise every resource field to at least level 1."
+    },
+    {
+      "name": "Resource Fields to Level 2",
+      "type": "resource_fields",
+      "resource_target": 2,
+      "notes": "Raise every resource field to at least level 2."
+    },
+    {
+      "name": "Resource Fields to Level 3",
+      "type": "resource_fields",
+      "resource_target": 3,
+      "notes": "Raise every resource field to at least level 3."
+    },
+    {
+      "name": "Resource Fields to Level 4",
+      "type": "resource_fields",
+      "resource_target": 4,
+      "notes": "Raise every resource field to at least level 4."
+    },
+    {
+      "name": "Resource Fields to Level 5",
+      "type": "resource_fields",
+      "resource_target": 5,
+      "notes": "Raise every resource field to at least level 5."
+    },
+    {
+      "name": "Resource Fields to Level 6",
+      "type": "resource_fields",
+      "resource_target": 6,
+      "notes": "Raise every resource field to at least level 6."
+    },
+    {
+      "name": "Resource Fields to Level 7",
+      "type": "resource_fields",
+      "resource_target": 7,
+      "notes": "Raise every resource field to at least level 7."
+    },
+    {
+      "name": "Resource Fields to Level 8",
+      "type": "resource_fields",
+      "resource_target": 8,
+      "notes": "Raise every resource field to at least level 8."
+    },
+    {
+      "name": "Resource Fields to Level 9",
+      "type": "resource_fields",
+      "resource_target": 9,
+      "notes": "Raise every resource field to at least level 9."
+    },
+    {
+      "name": "Resource Fields to Level 10",
+      "type": "resource_fields",
+      "resource_target": 10,
+      "notes": "Raise every resource field to at least level 10."
+    }
+  ]
+}

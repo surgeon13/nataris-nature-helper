@@ -1,0 +1,80 @@
+{
+  "key": "basic",
+  "name": "Basic Village",
+  "description": "Foundation template for any village. Builds military infrastructure ready for troop training.",
+  "tribes": ["roman", "teuton", "gaul"],
+  "next_template": "advanced",
+  "stages": [
+    {
+      "name": "Stage 1 - Main Building to 20",
+      "type": "main_building",
+      "target_level": 20,
+      "notes": "Warehouse (slot 20) and Granary (slot 21) upgraded on demand by greedy algorithm as costs require."
+    },
+    {
+      "name": "Stage 2 - Rally Point and Barracks",
+      "type": "buildings",
+      "notes": "Military foundation. Rally Point must exist before troops can move.",
+      "steps": [
+        { "building": "Rally Point", "target_level": 1, "slot": 39 },
+        { "building": "Barracks",    "target_level": 3, "slot": 37 }
+      ]
+    },
+    {
+      "name": "Stage 3 - Academy",
+      "type": "buildings",
+      "notes": "Academy to 10 unlocks most unit researches for mid-game.",
+      "steps": [
+        { "building": "Academy", "target_level": 10, "slot": 32 }
+      ]
+    },
+    {
+      "name": "Stage 4 - Town Hall",
+      "type": "buildings",
+      "notes": "Town Hall level 1 enables Small Celebrations for culture points.",
+      "steps": [
+        { "building": "Town Hall", "target_level": 1, "slot": 30 }
+      ]
+    },
+    {
+      "name": "Stage 5 - Blacksmith",
+      "type": "buildings",
+      "notes": "Blacksmith (in-game name confirmed) enables weapon and armor upgrades for troops.",
+      "steps": [
+        { "building": "Blacksmith", "target_level": 3, "slot": 28 }
+      ]
+    },
+    {
+      "name": "Stage 6 - Stable",
+      "type": "buildings",
+      "notes": "Stable unlocks cavalry units. Level 10 needed for higher tier cavalry.",
+      "steps": [
+        { "building": "Stable", "target_level": 10, "slot": 38 }
+      ]
+    }
+  ],
+  "tribe_overrides": {
+    "roman": {
+      "notes": "No tribe-specific buildings in basic template for Romans.",
+      "stage_additions": []
+    },
+    "teuton": {
+      "notes": "Brewery is capital-only and requires Granary 20 + Rally Point 10. Managed manually via a dedicated capital template in the future.",
+      "stage_additions": []
+    },
+    "gaul": {
+      "notes": "Trapper added early for passive defense while architect is away.",
+      "stage_additions": [
+        {
+          "after_stage": "Stage 2 - Rally Point and Barracks",
+          "name": "Stage 2b - Trapper (Gaul only)",
+          "type": "buildings",
+          "notes": "Trapper catches enemy troops passively. Level 5 gives meaningful trap capacity.",
+          "steps": [
+            { "building": "Trapper", "target_level": 5, "slot": 30 }
+          ]
+        }
+      ]
+    }
+  }
+}
